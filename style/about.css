@@ -1,0 +1,37 @@
+.banner-section {
+    width: 100%;
+    position: relative;
+}
+
+.banner-overlay {
+    width: 100%;
+    min-height: 230px;
+    opacity: 0.3;
+    background: black;
+    position: absolute;
+}
+
+.banner img {
+    width: 100%;
+    object-fit: cover;
+}
+
+.text {
+    position: absolute;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #fff;
+    font-size: 2rem;
+}
+
+.img-section {
+    margin-bottom: 2rem;
+}
+
+.choose-title h2 {
+    font-weight: 700;
+    margin-top: 2rem;
+}
+
